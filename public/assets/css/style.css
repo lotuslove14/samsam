@@ -40,12 +40,6 @@ body, h1, h2, h3, h4, h5, h6 {
 body {
     background: #fff;
 }
-.bg-like-img {
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  object-fit: cover;
-}
 .wrapper-space {
     background: url('../img/s_space_1_s.jpg') no-repeat center center; 
   -webkit-background-size: cover;
@@ -1071,9 +1065,10 @@ img.hover-shadow {
 .bg-arrow {
     font-size: 21px;
     letter-spacing: -3px;
+    margin-top: 5px;
 }
 a.margin-up {
-    margin-top: 0 !important;
+    margin-top: 4px !important;
 }
 .nav-tabs-mine > li > a:hover {
     color: #00d4d0 !important;
@@ -1186,12 +1181,23 @@ a.margin-up {
   .carousel-caption {
     bottom: 28%;
   }
+  .bg-arrow {
+    font-size: 18px;
+    letter-spacing: -3px;
+}
 }
 
 @media screen and (max-width: 892px) {
   .navbar .navbar-nav > li > a {
     font-size: 11px;
     padding: 10px 9px 5px 9px;
+  }
+  .bg-arrow {
+    font-size: 16px;
+    letter-spacing: -3px;
+  }
+  a.margin-up {
+    margin-top: 6px !important;
   }
 }
 
@@ -1231,10 +1237,51 @@ a.margin-up {
 @media screen and (max-width: 992px) {
 }
 
+@media only screen and (min-width: 584px) and (max-width: 767px) {
+  .landing-page .header .container {
+    padding-top: 18vh !important;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 767px) {
+  .landing-page .header .container {
+    padding-top: 21vh !important;
+  }
+}
 
+@media screen and (min-width: 767px) {
+  .bg-like-img {
+      position: absolute;
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+  }
+}
 
 
 @media screen and (max-width: 767px) {
+  .m-padding-20 {
+    margin-top: 20px;
+  }
+  .m-padding-40 {
+    margin-top: 40px;
+  }
+  .landing-page .header {
+    width: 100%;
+    height: auto !important;
+    min-height: auto !important; 
+  }
+  .landing-page .header .container {
+    padding-top: 10vh;
+    padding-bottom: 0;
+  }
+  .bg-like-img {
+      position: absolute;
+      width: 100%;
+  }
+  .bg-like-sm {
+      position: absolute;
+      width: 100%;
+  }
   .mySlides img, .mySlidesT img, .mySlidesH img {
       max-height: 480px;
       width: 100%;
@@ -1308,13 +1355,13 @@ a.margin-up {
     margin-top: 7px;
     margin-bottom: 0;
   }
-  .carousel-inner {
+  /*.carousel-inner {
     height: 480px;
   }
   .carousel-inner > .item > img {
     height: 480px;
     object-fit: cover;
-  }
+  }*/
 
 
 }
@@ -1382,9 +1429,9 @@ a.margin-up {
   .carousel-caption h4 {
     font-size: 16px;
   }
-  .carousel-caption {
+  /*.carousel-caption {
     bottom: 28%;
-  }
+  }*/
   .btn-cus-lg {
     padding: 10px 15px 6px 15px;
   }
@@ -1392,5 +1439,17 @@ a.margin-up {
 
 @media screen and (max-width: 375px) {
 }
+@media screen and (max-width: 350px) {
+  .carousel-caption {
+    bottom: -15%;
+  }
+  .carousel-caption h1 {
+    font-size: 18px;
+  }
+  .carousel-caption h4 {
+    font-size: 14px;
+  }
+}
+
 
 
