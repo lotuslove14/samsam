@@ -47,6 +47,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.wrapper-space-b {
+    background: url('../img/s_space_1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .wrapper-faci {
     background: url('../img/s_faci_1_s.jpg') no-repeat center center; 
   -webkit-background-size: cover;
@@ -54,8 +61,23 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.wrapper-faci-b {
+    background: url('../img/s_faci_1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .wrapper-exp {
     background: url('../img/s_exp_1_s.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+.wrapper-exp-b {
+    background: url('../img/s_exp_1.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,6 +90,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.wrapper-team-b {
+    background: url('../img/s_team_1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .wrapper-visual {
     background: url('../img/s_visuals_1_s.jpg') no-repeat center center; 
   -webkit-background-size: cover;
@@ -75,8 +104,22 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.wrapper-visual-b {
+    background: url('../img/s_visuals_1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .wrapper-stay {
-    background: url('../img/s_come_1.jpg_s') no-repeat center center; 
+    background: url('../img/s_come_1_s.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.wrapper-stay-b {
+    background: url('../img/s_come_1.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -626,6 +669,9 @@ a:focus {
     text-align: left;
     color: #ffffff;
 }
+.footer a:hover{
+    text-decoration: none !important;
+}
 .copy-right {
     font-size: 13px;
     font-family: BrandonGrotesque-Regular;
@@ -969,13 +1015,6 @@ img.hover-shadow {
 }
 .wrapper {
   margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  display: -ms-flexbox;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -ms-box-orient:horizontal;
-  overflow: hidden;
 }
 .row {
   margin-left: 0;
@@ -1077,6 +1116,11 @@ img.hover-shadow {
     letter-spacing: -3px;
     margin-top: 5px;
 }
+.bk-arrow {
+    font-size: 27px;
+    letter-spacing: -3px;
+    margin-top: 5px;
+}
 a.margin-up {
     margin-top: 4px !important;
 }
@@ -1164,7 +1208,7 @@ a.margin-up {
 
 @media screen and (max-width: 957px) {
   .navbar .navbar-nav > li > a {
-    padding: 10px 8px 5px 8px;
+    /*padding: 10px 8px 5px 8px;*/
   }
   .carousel-caption h1 {
     font-size: 35px;
@@ -1180,7 +1224,7 @@ a.margin-up {
 @media screen and (max-width: 927px) {
   .navbar .navbar-nav > li > a {
     font-size: 12px;
-    padding: 10px 9px 5px 9px;
+    padding: 10px 13px 5px 13px;
   }
   .carousel-caption h1 {
     font-size: 32px;
@@ -1200,7 +1244,7 @@ a.margin-up {
 @media screen and (max-width: 892px) {
   .navbar .navbar-nav > li > a {
     font-size: 11px;
-    padding: 10px 9px 5px 9px;
+    padding: 10px 11px 5px 11px;
   }
   .bg-arrow {
     font-size: 16px;
@@ -1214,7 +1258,7 @@ a.margin-up {
 @media screen and (max-width: 845px) {
   .navbar .navbar-nav > li > a {
     font-size: 11px;
-    padding: 10px 8px 5px 8px;
+    padding: 10px 11px 5px 11px;
   }
   .carousel-caption h1 {
     font-size: 29px;
@@ -1230,14 +1274,14 @@ a.margin-up {
 @media screen and (max-width: 828px) {
   .navbar .navbar-nav > li > a {
     font-size: 11px;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 9px 5px 9px;
   }
 }
 
 @media screen and (max-width: 781px) {
   .navbar .navbar-nav > li > a {
     font-size: 11px;
-    padding: 10px 4px 5px 4px;
+    padding: 10px 8px 5px 8px;
   }
   .nav-tabs-mine > li > a, .nav-tabs-mine > li > a:hover, .nav-tabs-mine > li > a:focus {
     font-size: 13px;
@@ -1366,6 +1410,9 @@ a.margin-up {
   .navbar .navbar-nav > li > a {
     margin-top: 7px;
     margin-bottom: 0;
+  }
+  .no-bg-on-mobile {
+    background: none;
   }
   /*.carousel-inner {
     height: 480px;
