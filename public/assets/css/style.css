@@ -1310,6 +1310,9 @@ a.margin-up {
       /*object-fit: cover;*/
       flex: none; /* keep aspect ratio */
   }
+  .li-on-dt {
+    padding-right: 30px;
+  }
 }
 
 
