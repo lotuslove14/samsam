@@ -125,6 +125,20 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.wrapper-future-index {
+    background: url('../img/future_index_bg_s.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.wrapper-future-index-b {
+    background: url('../img/future_index_bg.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #ourPhoto {
     min-height: 660px;
 }

@@ -45,14 +45,14 @@
 		            <span class="icon-bar"></span>
         		</button>
         		<a class="navbar-brand hide-on-mobile" href="index.html">
-                    <img src="assets/img/s_logo_gray.png" alt="SamSam Logo" class="logo-img">
+                    <img src="assets/img/s_logo_gray.svg" alt="SamSam Logo" class="logo-img">
                 </a>
                 <a href="space.html#focusVillas" class="btn-cus-sm-mo hide-on-dt book-mobile">
                     OUR VILLAS
                 </a>
                 <div class="hide-on-dt logo-on-mobile">
                     <a href="index.html">
-                        <img src="assets/img/s_logo_gray.png" alt="SamSam Logo" class="">
+                        <img src="assets/img/s_logo_gray.svg" alt="SamSam Logo" class="">
                     </a>
                 </div>
         	</div>
@@ -93,7 +93,7 @@
         		</ul>
         		<ul class="nav navbar-nav navbar-right">
     				<li class="hide-on-mobile">
-    					<a href="mailto:reserve@samsam-resorts.com" class="btn-cus-lg-no-border margin-up">
+    					<a href="mailto:reservations@samsam-resorts.com" class="btn-cus-lg-no-border margin-up">
                             BOOK <span class="bg-arrow">>></span>
                         </a>
     				</li>
@@ -145,7 +145,7 @@
                         <span>+66 813767454</span></li>
                     <li>
                         <div class="img-hoder-24"><img src="assets/img/s_ic_mail.svg" alt="" class=""></div>
-                        <a href="mailto:reserve@samsam-resorts.com"><span>reserve@samsam-resorts.com</span></a>
+                        <a href="mailto:reservations@samsam-resorts.com"><span>reservations@samsam-resorts.com</span></a>
                     </li>
                     <li>
                         <div class="img-hoder-24"><img src="assets/img/s_ic_male.svg" alt="" class=""></div>
@@ -212,7 +212,8 @@
                         </div> 
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12">
-                        <form id="contactform" class="cus-form" method="POST">
+                        <!-- <form id="contactform" class="cus-form" method="POST"> -->
+                        <form method="POST" class="cus-form" action="https://formspree.io/info@samsam-resorts.com">
                             <input type="text" name="firstName" placeholder="First Name" class="inline-form" required>
                             <input type="text" name="lastName" placeholder="Last Name" class="inline-form-r" required>
                             <input type="email" name="_replyto" placeholder="Your Email" class="" required>
@@ -221,7 +222,7 @@
                             <input type="hidden" name="_next" value="https://samsam-resorts.com/stay.html" />
                             <input type="hidden" name="_subject" value="Website contact" />
                             <input type="text" name="_gotcha" style="display:none" />
-                            <button href="#" class="btn-cus-lg btn-cus-clear" type="submit">Send</button>
+                            <button class="btn-cus-lg btn-cus-clear" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
@@ -322,10 +323,10 @@
 	    });    
 	</script>
 
-    <script>
+    <!--<script>
         var contactform =  document.getElementById('contactform');
         contactform.setAttribute('action', '//formspree.io/' + 'Info' + '@' + 'samsam-resorts' + '.' + 'com');
-    </script>
+    </script>-->
 
 	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
 	<script src="assets/js/material-kit.js" type="text/javascript"></script>
@@ -347,13 +348,13 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107142408-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110565850-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
      
-      gtag('config', 'UA-107142408-1');
+      gtag('config', 'UA-110565850-1');
     </script>
 </html>
